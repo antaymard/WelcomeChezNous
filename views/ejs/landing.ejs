@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Welcome Chez Nous - Home</title>
+  <meta name="description" content="A cool thing made with HyperDev">
+  <meta name="theme-color" content="#0D47A1">
+  <link id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--
+
+  <script src="https://use.fontawesome.com/d5a570f79a.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
+  <!-- NOTE: BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <!-- NOTE: JQUERY for calendar -->
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <link rel="stylesheet" href="/landing.css">
+  <link rel="stylesheet" href="/general.css">
+
+</head>
+
+<body>
+
+  <!-- NOTE: HEADER -->
+  <div class="container-fluid" id="header">
+    <div class="">
+      <a href="/">WELCOME CHEZ NOUS</a>
+    </div>
+    <div id="">
+      <a href="/become_family">Devenez famille d'accueil</a>
+      <a href="#">Aide</a>
+      <a href="/signup_account">Inscription</a>
+      <a href="#">Connexion</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="WCNTitre">
+      Welcome Chez <span style="color:red">Nous</span>
+    </div>
+    <div id="WCNclaim">
+      Partez en expérience linguistique dans la famille de votre choix.
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="landingForm">
+      <div class="formPart">
+        Où ?
+        <input type="text" name="" value="">
+      </div>
+      <div class="formPart">
+        Quand ?
+        <input type="text" id="datepicker">
+      </div>
+      <div class="formPart">
+        Combien de voyageurs ?
+        <select name="">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+    </div>
+    <button type="button" class="btn btn-success" style="float:right; margin-top:10px">Rechercher</button>
+  </div>
+
+  <div class="container">
+
+    <h4 style="color:black; margin-bottom:20px">Familles à l'honneur</h4>
+
+    <div id="famillesHonneur">
+
+      <!-- NOTE: CARDS de familles -->
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="http://static.wpe.au.syrahost.com/var/m_c/ce/cec/10466/556756-bigstock-Family-relaxing-on-sofa-90746759.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Les Jones</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-link">En savoir plus</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="https://blog.smartthings.com/wp-content/uploads/2014/06/o-FAMILY-VACATION-facebook.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Les Smith</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-link">En savoir plus</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="https://farm4.staticflickr.com/3942/15558009181_15c88cdba3_b.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Les O'Connor</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-link">En savoir plus</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="https://www.equifax.com/personal/documents/20182/21638/Equifax+Complete+Family+Hero.jpg/ef58446d-37e2-497d-8784-4855e6fa1d4c?t=1469052879335" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Les Bond</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-link">En savoir plus</a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <div class="footer">
+    <div class="row">
+
+      <div class="col">
+        <div class="ssSectionTitre">
+          WCN repose sur la confiance
+        </div>
+        <div class="ssSectionContent">
+          Vous remplissez une description de votre famille, télechargez des photos, entrez votre adresse blabla
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="ssSectionTitre">
+          Nous assurons vos arrières
+        </div>
+        <div class="ssSectionContent">
+          Vous remplissez une description de votre famille, télechargez des photos, entrez votre adresse blabla
+        </div>
+      </div>
+
+      <div class="col">
+      </div>
+
+      <div class="col">
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+
+</body>
